@@ -109,9 +109,4 @@ int main()
 
 ## 1002 Problem C 
 >POJ 1847 [Tram](http://poj.org/problem?id=1847)
-
-
-
-
-
-
+wakakkaka
