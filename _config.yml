@@ -63,10 +63,14 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: hexo-theme-yilia-master
+theme: huno
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo: git@github.com:zcatao/zcatao.github.io.git
+port: 4005
+
+
+duoshuo_shortname: zcatao
