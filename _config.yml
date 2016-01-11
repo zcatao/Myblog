@@ -14,7 +14,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://zcatao.github.io
 root: /
-permalink: :year/:month/:day/:title/	
+permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 # Directory
@@ -33,9 +33,9 @@ default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
-render_drafts: false
-post_asset_folder: false
-relative_link: false
+render_drafts: true
+post_asset_folder: true
+relative_link: true
 future: true
 highlight:
   enable: true
@@ -72,5 +72,6 @@ deploy:
   repo: git@github.com:zcatao/zcatao.github.io.git
 port: 4005
 
-
+plugins:
+  - hexo-math
 duoshuo_shortname: zcatao
