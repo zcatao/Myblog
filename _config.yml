@@ -33,9 +33,9 @@ default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
-render_drafts: true
-post_asset_folder: true
-relative_link: true
+render_drafts: false
+post_asset_folder: false
+relative_link: false
 future: true
 highlight:
   enable: true
@@ -71,7 +71,7 @@ theme: huno
 deploy:
   type: git
   repo: git@github.com:zcatao/zcatao.github.io.git
-port: 4005
+#port: 4008
 
 plugins:
   - hexo-math
